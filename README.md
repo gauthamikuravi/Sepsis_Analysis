@@ -48,8 +48,10 @@ There are many features that may be of little use when predicting the survivabil
 more irrelevant features that exist, the more data is required to ensure they do not t to noise in
 those features. It is important to remove the features that are of little use. Feature correlation was calculated and it was observed that the infection type was of little
 correlation to the survivability of sepsis. The existence of any infection was of little use in predicting survivability as well, therefore these features were dropped from the dataset. With the remaining features, a random forest was trained and the resulting feature importances graphed in figure. As can be see below gender, insurance type, and admission type are of little use when predicting survivability. For most algorithms, this data will be dropped. For the neural network, it may be included since more complex relationships could be developed between the features.
-  <img width="700" src="./Data Visualizations/feature_correlation - Copy.png" alt="logo" />
- 
+ <img width="700" src="./Data Visualizations/feature_correlation - Copy.png" alt="logo" />
+  
+  The important features have been discov- ered and now machine learning models can be  trained on this cleaned and standardized data.
+ <img width="700" src="./Data Visualizations/feature_correlation_2.png" alt="logo" />
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
 
