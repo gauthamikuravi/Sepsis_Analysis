@@ -17,9 +17,11 @@ MIMIC supports a diverse range of analytic studies spanning epidemiology, clinic
 * it encompasses a diverse and very large population of ICU patients
 * it contains high temporal resolution data including lab results, electronic documentation, and bedside monitor trends and waveforms.
 
+
+
 Citation: https://mimic.physionet.org/about/mimic/ 
 
-## The Proposal:
+## Detail:
 For a more detailed description of the proposal please see the .tex file or .pdf file that will be included in the repo once the proposal has been completed.
 
 Sepsis is a serious, life threatening condition that is caused by an overwhelming immune resp onse to an infection. Infection is often bacterial however it is possible for sepsis to be associated with: fungal, viral, parasitic, as well as bacterial infections. 
@@ -31,6 +33,18 @@ If sepsis is not treated quickly or with enough direct care, multiple organ dysf
 Certain treatments may be highly effective, therefore it is important to pay special attention to several things: the type of infection and type of antibiotics used, the blood pressure and whether or not vasopressors were used, correct amount of IV fluid provided to patient. The correct type of antibiotic and appropriate administering of vasopressors can reduce the chance of organ failure and mortality greatly.
 
 The goal of this project is to predict the survivability of patients based off of demographic information along with speed of treatment, type of infection, type of antimicrobial treatment, as well as other drugs and vital information. While sepsis is well studied, it is still partially responsible for ~6% of all deaths in the United States. More information and a better understanding of tailoring individual treatments for patients may improve its survivability.
+
+
+Once input into a Postgres database, there are 20 tables with patient information and 5 dictio-
+nary lookup tables. Much of the data is dicult to process due to lack of standardization across
+multiple source databases(CareVue and MetaVision). Most of the useful information with date-time
+information associated with it is available in the following tables:
+
+**Admssions**
+Contains information related to a patient's admission. This information in-
+cludes their hospital stay id, insurance type, date of admission, and suspected diagnosis/con-
+dition. An example is provided below. This snapshot of the table has not been manipulated
+in any way other than selecting patients admitted with sepsis.
 
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
