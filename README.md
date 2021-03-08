@@ -36,7 +36,8 @@ information associated with it is available in the following tables:
 - [x] **Admssions**
 Contains information related to a patient's admission. This information includes their hospital stay id, insurance type, date of admission, and suspected diagnosis/con-
 dition. An example is provided below. This snapshot of the table has not been manipulated in any way other than selecting patients admitted with sepsis.
-     <img width="500" src="./Data Visualizations/admission - Copy.png" alt="logo" />
+<img width="500" src="./Data Visualizations/admission - Copy.png" alt="logo" />
+ 
  
  - [x] **patients:**
 Patient information such as date of birth, gender, hospital stay id, etc. An example is provided below. Again, this table has not been manipulated in any way other than selecting  patients that were admitted with sepsis.
