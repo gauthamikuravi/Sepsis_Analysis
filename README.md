@@ -39,6 +39,11 @@ Patient information such as date of birth, gender, hospital stay id, etc. An exa
 database prior to any reading and pre-processing.
  <img width="500" src="./Data Visualizations/vitals.png" alt="logo" />
  
+ - [x] **microbiologyevents:**
+ Patient microbiology tests with date-time associated. This includes tests for infections and resulting prescription. This snapshot below shows how the database is layed out prior to any pre-processing.
+ <img width="500" src="./Data Visualizations/microbiology.png" alt="logo" />
+ 
+ 
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
 
