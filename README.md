@@ -40,11 +40,15 @@ nary lookup tables. Much of the data is dicult to process due to lack of standa
 multiple source databases(CareVue and MetaVision). Most of the useful information with date-time
 information associated with it is available in the following tables:
 
-**Admssions**
-Contains information related to a patient's admission. This information in-
-cludes their hospital stay id, insurance type, date of admission, and suspected diagnosis/con-
-dition. An example is provided below. This snapshot of the table has not been manipulated
-in any way other than selecting patients admitted with sepsis.
+- [x] **Admssions**
+Contains information related to a patient's admission. This information includes their hospital stay id, insurance type, date of admission, and suspected diagnosis/con-
+dition. An example is provided below. This snapshot of the table has not been manipulated in any way other than selecting patients admitted with sepsis.
+ <img width="250" src="./Data Visualizations/admission - Copy.png" alt="logo" />
+ 
+ - [x] **patients:**
+Patient information such as date of birth, gender, hospital stay id, etc. An example is provided below. Again, this table has not been manipulated in any way other than selecting  patients that were admitted with sepsis.
+ <img width="250" src="./Data Visualizations/patients.png" alt="logo" />
+ 
 
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
