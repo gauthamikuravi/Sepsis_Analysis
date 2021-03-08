@@ -43,6 +43,12 @@ database prior to any reading and pre-processing.
  Patient microbiology tests with date-time associated. This includes tests for infections and resulting prescription. This snapshot below shows how the database is layed out prior to any pre-processing.
  <img width="700" src="./Data Visualizations/microbiology.png" alt="logo" />
  
+### **Feature Selection**
+There are many features that may be of little use when predicting the survivability of sepsis. The
+more irrelevant features that exist, the more data is required to ensure they do not t to noise in
+those features. It is important to remove the features that are of little use. Feature correlation was calculated and it was observed that the infection type was of little
+correlation to the survivability of sepsis. The existence of any infection was of little use in predicting survivability as well, therefore these features were dropped from the dataset. With the remaining features, a random forest was trained and the resulting feature importances graphed in figure. As can be see below gender, insurance type, and admission type are of little use when predicting survivability. For most algorithms, this data will be dropped. For the neural network, it may be included since more complex relationships could be developed between the features.
+  <img width="700" src="./Data Visualizations/feature_correlation - Copy.png" alt="logo" />
  
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
