@@ -51,7 +51,7 @@ correlation to the survivability of sepsis. The existence of any infection was o
  <img width="700" src="./Data Visualizations/feature_correlation - Copy.png" alt="logo" />
   
   The important features have been discov- ered and now machine learning models can be  trained on this cleaned and standardized data.
- <img width="700" src="./Data Visualizations/feature_correlation_2.png" alt="logo" />
+ <img width="700" src="./Data Visualizations/features.PNG" alt="logo" />
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
 
