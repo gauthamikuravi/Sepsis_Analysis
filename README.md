@@ -55,8 +55,7 @@ correlation to the survivability of sepsis. The existence of any infection was o
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
 
-A short course is required to gain permission to the dataset.
-
+**A short course is required to gain permission to the dataset.**
 ## Citations:
 MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
