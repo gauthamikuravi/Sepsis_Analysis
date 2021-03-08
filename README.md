@@ -32,7 +32,7 @@ dition. An example is provided below. This snapshot of the table has not been ma
  
  - [x] **patients:**
 Patient information such as date of birth, gender, hospital stay id, etc. An example is provided below. Again, this table has not been manipulated in any way other than selecting  patients that were admitted with sepsis.
-<img width="500" src="./Data Visualizations/patients.png" alt="logo" />
+<img width="700" src="./Data Visualizations/patients.png" alt="logo" />
     
  - [x] **labevents:**
  Patient lab events with date-time associated with the measurement. This includes information such as creatinine levels. This is a snapshot is an example of the layout of the
@@ -41,7 +41,7 @@ database prior to any reading and pre-processing.
  
  - [x] **microbiologyevents:**
  Patient microbiology tests with date-time associated. This includes tests for infections and resulting prescription. This snapshot below shows how the database is layed out prior to any pre-processing.
- <img width="500" src="./Data Visualizations/microbiology.png" alt="logo" />
+ <img width="700" src="./Data Visualizations/microbiology.png" alt="logo" />
  
  
 ## Learn More:
