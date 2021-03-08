@@ -25,13 +25,6 @@ Citation: https://mimic.physionet.org/about/mimic/
 For a more detailed description of the proposal please see the .tex file or .pdf file that will be included in the repo once the proposal has been completed.
 
 Sepsis is a serious, life threatening condition that is caused by an overwhelming immune resp onse to an infection. Infection is often bacterial however it is possible for sepsis to be associated with: fungal, viral, parasitic, as well as bacterial infections. 
-
-Sepsis is due to the body's response, not only the effects of the infection itself. White blo o d cells release an array of chemicals to fight the infection which trigger systemic inflammation, vaso dilation, permeability of vessels, and intracellular fluid build up. These "leaky vessels" use up the body's supply of coagulation factors. The increased fluid build up and decreased blood pressure result in a lack of oxygenation of tissue, known as shock. 
-
-If sepsis is not treated quickly or with enough direct care, multiple organ dysfunction can occur which can result in kidney failure, liver failure, heart failure, acute respiratory distress, etc... The speed at which treatment is administered and types of treatments are directly correlated with survivability of this severe condition. The speed of treatment has been found to be more important than the age of the patient. Each hour of delay in antimicrobial administration over the initial 6 hours is associated with an average decrease in survival rate of 7.6%. 
-
-Certain treatments may be highly effective, therefore it is important to pay special attention to several things: the type of infection and type of antibiotics used, the blood pressure and whether or not vasopressors were used, correct amount of IV fluid provided to patient. The correct type of antibiotic and appropriate administering of vasopressors can reduce the chance of organ failure and mortality greatly.
-
 The goal of this project is to predict the survivability of patients based off of demographic information along with speed of treatment, type of infection, type of antimicrobial treatment, as well as other drugs and vital information. While sepsis is well studied, it is still partially responsible for ~6% of all deaths in the United States. More information and a better understanding of tailoring individual treatments for patients may improve its survivability.
 
 
@@ -43,11 +36,11 @@ information associated with it is available in the following tables:
 - [x] **Admssions**
 Contains information related to a patient's admission. This information includes their hospital stay id, insurance type, date of admission, and suspected diagnosis/con-
 dition. An example is provided below. This snapshot of the table has not been manipulated in any way other than selecting patients admitted with sepsis.
- <img width="250" src="./Data Visualizations/admission - Copy.png" alt="logo" />
+     <img width="500" src="./Data Visualizations/admission - Copy.png" alt="logo" />
  
  - [x] **patients:**
 Patient information such as date of birth, gender, hospital stay id, etc. An example is provided below. Again, this table has not been manipulated in any way other than selecting  patients that were admitted with sepsis.
- <img width="250" src="./Data Visualizations/patients.png" alt="logo" />
+    <img width="500" src="./Data Visualizations/patients.png" alt="logo" />
  
 
 ## Learn More:
