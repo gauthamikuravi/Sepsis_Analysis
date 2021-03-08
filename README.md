@@ -19,9 +19,7 @@ MIMIC supports a diverse range of analytic studies spanning epidemiology, clinic
 Citation: https://mimic.physionet.org/about/mimic/ 
 
 ## Detail:
-For a more detailed description of the proposal please see the .tex file or .pdf file that will be included in the repo once the proposal has been completed.
-
-Sepsis is a serious, life threatening condition that is caused by an overwhelming immune resp onse to an infection. Infection is often bacterial however it is possible for sepsis to be associated with: fungal, viral, parasitic, as well as bacterial infections. 
+For a more detailed description of the proposal please see the .tex file or .pdf file.
 The goal of this project is to predict the survivability of patients based off of demographic information along with speed of treatment, type of infection, type of antimicrobial treatment, as well as other drugs and vital information. While sepsis is well studied, it is still partially responsible for ~6% of all deaths in the United States. More information and a better understanding of tailoring individual treatments for patients may improve its survivability.
 Once input into a Postgres database, there are 20 tables with patient information and 5 dictio- nary lookup tables. Much of the data is dicult to process due to lack of standardization across multiple source databases(CareVue and MetaVision). Most of the useful information with date-time
 information associated with it is available in the following tables:
@@ -39,7 +37,7 @@ Patient information such as date of birth, gender, hospital stay id, etc. An exa
  - [x] **labevents:**
  Patient lab events with date-time associated with the measurement. This includes information such as creatinine levels. This is a snapshot is an example of the layout of the
 database prior to any reading and pre-processing.
- <img width="500" src="./Data Visualizations/bio_events - Copy.png" alt="logo" />
+ <img width="500" src="./Data Visualizations/vitals.png" alt="logo" />
  
 ## Learn More:
 To gain access to this dataset for your own project visit: https://mimic.physionet.org
